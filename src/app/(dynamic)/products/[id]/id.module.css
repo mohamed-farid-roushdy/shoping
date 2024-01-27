@@ -1,0 +1,43 @@
+.container{
+  
+}
+
+.title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 18px;
+}
+.imgContainer{
+    position: relative;
+    height: 600px;
+    margin: 25px 0;
+}
+.img{
+    object-fit:fill;
+    border-radius: 15px;
+}
+.seller{
+    position: absolute;
+    background-color: var(--color-primary);
+    color: #111;
+    padding: 5px 10px;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 15px 0;
+}
+.gallary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.paragraph{
+    font-size: 18px;
+    line-height: 26px;
+    columns: 2;
+    text-align: justify;
+}
+

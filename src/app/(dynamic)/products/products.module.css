@@ -1,0 +1,52 @@
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    gap: 15px;
+}
+
+.products{
+    flex-grow: 1;
+    border: 1px solid #6b63ff46;
+    border-radius: 25px;
+    transition: all .3s ease-in-out;
+}
+.products:hover{
+    background: black;
+    border: 1px solid white;
+}
+
+/* .products:nth-child(even){
+    background-color: black;
+    flex-direction: row-reverse;
+} */
+
+
+.imageContainer{
+    position: relative;
+    height: 250px;
+
+
+}
+.img{
+    object-fit: cover;
+    border-radius: 15px;
+    border-radius: 25px;
+
+}
+.content{
+    padding: 20px;
+}
+
+.title{ 
+    font-weight: 700;
+    font-size: 18px;
+    color: var( --color-primary);
+    margin-bottom: 10px;
+
+}
+.paragraph{
+    font-size: 12px;
+    color: #999;
+
+}
+
